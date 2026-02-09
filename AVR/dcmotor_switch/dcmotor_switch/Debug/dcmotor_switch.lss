@@ -1,0 +1,137 @@
+
+dcmotor_switch.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000000  00800100  00800100  0000011c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         000000c8  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .comment      00000030  00000000  00000000  0000011c  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  0000014c  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000020  00000000  00000000  00000188  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   0000067c  00000000  00000000  000001a8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 000005f8  00000000  00000000  00000824  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   00000223  00000000  00000000  00000e1c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000024  00000000  00000000  00001040  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    00000350  00000000  00000000  00001064  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_ranges 00000010  00000000  00000000  000013b4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 34 00 	jmp	0x68	; 0x68 <__ctors_end>
+   4:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+   8:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+   c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  10:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  14:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  18:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  1c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  20:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  24:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  28:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  2c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  30:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  34:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  38:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  3c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  40:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  44:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  48:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  4c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  50:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  54:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  58:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  5c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  60:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  64:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+
+00000068 <__ctors_end>:
+  68:	11 24       	eor	r1, r1
+  6a:	1f be       	out	0x3f, r1	; 63
+  6c:	cf ef       	ldi	r28, 0xFF	; 255
+  6e:	d8 e0       	ldi	r29, 0x08	; 8
+  70:	de bf       	out	0x3e, r29	; 62
+  72:	cd bf       	out	0x3d, r28	; 61
+  74:	0e 94 40 00 	call	0x80	; 0x80 <main>
+  78:	0c 94 62 00 	jmp	0xc4	; 0xc4 <_exit>
+
+0000007c <__bad_interrupt>:
+  7c:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+00000080 <main>:
+#include <avr/io.h>
+
+
+int main(void)
+{    //Configuration
+    DDRD|=(1<<DDD1) |(1<<DDD2); //set 1 in PD1 AND PD2 to make output pin
+  80:	8a b1       	in	r24, 0x0a	; 10
+  82:	86 60       	ori	r24, 0x06	; 6
+  84:	8a b9       	out	0x0a, r24	; 10
+	DDRC &=(~(1<<DDC1) | ~(1<<DDC2)); //SET 0 in PINC1,PINC2 to make input pin
+  86:	87 b1       	in	r24, 0x07	; 7
+  88:	87 b9       	out	0x07, r24	; 7
+	//DDRC &=~(1<<DDC2);
+    while (1) 
+    {
+		if(PINC&(1<<PINC1) && !(PINC&(1<<PINC2)))// check pinc1=1 and PINC2=0
+  8a:	31 9b       	sbis	0x06, 1	; 6
+  8c:	09 c0       	rjmp	.+18     	; 0xa0 <main+0x20>
+  8e:	32 99       	sbic	0x06, 2	; 6
+  90:	07 c0       	rjmp	.+14     	; 0xa0 <main+0x20>
+		{
+			PORTD|=(1<<PORTD1); //PD1=ON
+  92:	8b b1       	in	r24, 0x0b	; 11
+  94:	82 60       	ori	r24, 0x02	; 2
+  96:	8b b9       	out	0x0b, r24	; 11
+			PORTD&=~(1<<PORTD2);//PD2=OFF
+  98:	8b b1       	in	r24, 0x0b	; 11
+  9a:	8b 7f       	andi	r24, 0xFB	; 251
+  9c:	8b b9       	out	0x0b, r24	; 11
+  9e:	f5 cf       	rjmp	.-22     	; 0x8a <main+0xa>
+		}
+		else if(PINC & (1<<PINC2) && !(PINC & (1<<PINC1)))//CHECK PINC2=1 and PINC1=0
+  a0:	32 9b       	sbis	0x06, 2	; 6
+  a2:	09 c0       	rjmp	.+18     	; 0xb6 <main+0x36>
+  a4:	31 99       	sbic	0x06, 1	; 6
+  a6:	07 c0       	rjmp	.+14     	; 0xb6 <main+0x36>
+		{
+			PORTD|=(1<<PORTD2);//PD2=ON
+  a8:	8b b1       	in	r24, 0x0b	; 11
+  aa:	84 60       	ori	r24, 0x04	; 4
+  ac:	8b b9       	out	0x0b, r24	; 11
+			PORTD&=~(1<<PORTD1);//PD1=OFF
+  ae:	8b b1       	in	r24, 0x0b	; 11
+  b0:	8d 7f       	andi	r24, 0xFD	; 253
+  b2:	8b b9       	out	0x0b, r24	; 11
+  b4:	ea cf       	rjmp	.-44     	; 0x8a <main+0xa>
+			
+		}
+		else
+		{
+			PORTD &=~(1<<PORTD1);  //for all other condition PD1  and PD2  OFF
+  b6:	8b b1       	in	r24, 0x0b	; 11
+  b8:	8d 7f       	andi	r24, 0xFD	; 253
+  ba:	8b b9       	out	0x0b, r24	; 11
+			PORTD &=~(1<<PORTD2);
+  bc:	8b b1       	in	r24, 0x0b	; 11
+  be:	8b 7f       	andi	r24, 0xFB	; 251
+  c0:	8b b9       	out	0x0b, r24	; 11
+  c2:	e3 cf       	rjmp	.-58     	; 0x8a <main+0xa>
+
+000000c4 <_exit>:
+  c4:	f8 94       	cli
+
+000000c6 <__stop_program>:
+  c6:	ff cf       	rjmp	.-2      	; 0xc6 <__stop_program>

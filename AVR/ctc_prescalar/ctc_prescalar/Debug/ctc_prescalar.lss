@@ -1,0 +1,167 @@
+
+ctc_prescalar.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000000  00800100  00800100  00000136  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         000000e2  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .comment      00000030  00000000  00000000  00000136  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  00000168  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000028  00000000  00000000  000001a8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   000006b8  00000000  00000000  000001d0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 00000635  00000000  00000000  00000888  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   00000259  00000000  00000000  00000ebd  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000034  00000000  00000000  00001118  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    00000364  00000000  00000000  0000114c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    0000002a  00000000  00000000  000014b0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 00000018  00000000  00000000  000014da  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 34 00 	jmp	0x68	; 0x68 <__ctors_end>
+   4:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+   8:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+   c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  10:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  14:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  18:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  1c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  20:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  24:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  28:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  2c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  30:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  34:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  38:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  3c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  40:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  44:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  48:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  4c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  50:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  54:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  58:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  5c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  60:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  64:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+
+00000068 <__ctors_end>:
+  68:	11 24       	eor	r1, r1
+  6a:	1f be       	out	0x3f, r1	; 63
+  6c:	cf ef       	ldi	r28, 0xFF	; 255
+  6e:	d8 e0       	ldi	r29, 0x08	; 8
+  70:	de bf       	out	0x3e, r29	; 62
+  72:	cd bf       	out	0x3d, r28	; 61
+  74:	0e 94 65 00 	call	0xca	; 0xca <main>
+  78:	0c 94 6f 00 	jmp	0xde	; 0xde <_exit>
+
+0000007c <__bad_interrupt>:
+  7c:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+00000080 <delay_1sCTC_prescalar>:
+#define F_CPU 16000000
+#include <avr/io.h>
+
+void delay_1sCTC_prescalar(void)
+{
+	TCNT0=0;
+  80:	16 bc       	out	0x26, r1	; 38
+	OCR0A=199;//SET point for 200 count
+  82:	87 ec       	ldi	r24, 0xC7	; 199
+  84:	87 bd       	out	0x27, r24	; 39
+	TCCR0A&=~(1<<WGM00);//CTC mode WGM01=1,WGM00=0
+  86:	84 b5       	in	r24, 0x24	; 36
+  88:	8e 7f       	andi	r24, 0xFE	; 254
+  8a:	84 bd       	out	0x24, r24	; 36
+	TCCR0A|=(1<<WGM01);
+  8c:	84 b5       	in	r24, 0x24	; 36
+  8e:	82 60       	ori	r24, 0x02	; 2
+  90:	84 bd       	out	0x24, r24	; 36
+	
+	TCCR0B|=(1<<CS02);//for 1024 pre scaling CS00=1,CS01=0,CS02=1
+  92:	85 b5       	in	r24, 0x25	; 37
+  94:	84 60       	ori	r24, 0x04	; 4
+  96:	85 bd       	out	0x25, r24	; 37
+	TCCR0B&=~(1<<CS01);
+  98:	85 b5       	in	r24, 0x25	; 37
+  9a:	8d 7f       	andi	r24, 0xFD	; 253
+  9c:	85 bd       	out	0x25, r24	; 37
+	TCCR0B|=(1<<CS00);
+  9e:	85 b5       	in	r24, 0x25	; 37
+  a0:	81 60       	ori	r24, 0x01	; 1
+  a2:	85 bd       	out	0x25, r24	; 37
+	
+	for(long int i=0;i<78;i++)
+  a4:	40 e0       	ldi	r20, 0x00	; 0
+  a6:	50 e0       	ldi	r21, 0x00	; 0
+  a8:	ba 01       	movw	r22, r20
+  aa:	09 c0       	rjmp	.+18     	; 0xbe <delay_1sCTC_prescalar+0x3e>
+	{
+		while(!(TIFR0&(1<<OCF0A)));
+  ac:	a9 9b       	sbis	0x15, 1	; 21
+  ae:	fe cf       	rjmp	.-4      	; 0xac <delay_1sCTC_prescalar+0x2c>
+		TIFR0|=(1<<OCF0A);
+  b0:	85 b3       	in	r24, 0x15	; 21
+  b2:	82 60       	ori	r24, 0x02	; 2
+  b4:	85 bb       	out	0x15, r24	; 21
+	
+	TCCR0B|=(1<<CS02);//for 1024 pre scaling CS00=1,CS01=0,CS02=1
+	TCCR0B&=~(1<<CS01);
+	TCCR0B|=(1<<CS00);
+	
+	for(long int i=0;i<78;i++)
+  b6:	4f 5f       	subi	r20, 0xFF	; 255
+  b8:	5f 4f       	sbci	r21, 0xFF	; 255
+  ba:	6f 4f       	sbci	r22, 0xFF	; 255
+  bc:	7f 4f       	sbci	r23, 0xFF	; 255
+  be:	4e 34       	cpi	r20, 0x4E	; 78
+  c0:	51 05       	cpc	r21, r1
+  c2:	61 05       	cpc	r22, r1
+  c4:	71 05       	cpc	r23, r1
+  c6:	94 f3       	brlt	.-28     	; 0xac <delay_1sCTC_prescalar+0x2c>
+	{
+		while(!(TIFR0&(1<<OCF0A)));
+		TIFR0|=(1<<OCF0A);
+	}
+	
+}
+  c8:	08 95       	ret
+
+000000ca <main>:
+
+
+int main(void)
+{
+	DDRB|=(1<<DDB5);
+  ca:	84 b1       	in	r24, 0x04	; 4
+  cc:	80 62       	ori	r24, 0x20	; 32
+  ce:	84 b9       	out	0x04, r24	; 4
+	while (1)
+	{
+		PORTB^=(1<<PORTB5);
+  d0:	95 b1       	in	r25, 0x05	; 5
+  d2:	80 e2       	ldi	r24, 0x20	; 32
+  d4:	89 27       	eor	r24, r25
+  d6:	85 b9       	out	0x05, r24	; 5
+		delay_1sCTC_prescalar();
+  d8:	0e 94 40 00 	call	0x80	; 0x80 <delay_1sCTC_prescalar>
+  dc:	f9 cf       	rjmp	.-14     	; 0xd0 <main+0x6>
+
+000000de <_exit>:
+  de:	f8 94       	cli
+
+000000e0 <__stop_program>:
+  e0:	ff cf       	rjmp	.-2      	; 0xe0 <__stop_program>

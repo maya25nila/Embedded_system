@@ -1,0 +1,109 @@
+/*
+ * stm32f401xx_gpio_driver.c
+ *
+ *  Created on: Jan 27, 2026
+ *      Author: littles
+ */
+
+#include<stdint.h>
+#include "stm32f401xx_gpio_driver.h"
+
+/*********************************************************************
+ * @fn          - GPIO_PeriClockControl
+ *
+ * @brief       - Enables or disables peripheral clock for GPIO port
+ *
+ * @param[in]   - pGPIOx: GPIO port base address
+ * @param[in]   - EnorDi: ENABLE or DISABLE macros
+ *
+ * @return      - none
+ *
+ * @Note        - refer CLOCK ENABLE or DISABLE Macros
+ *********************************************************************/
+
+void GPIO_PeriClockControl(GPIO_RegDef *pGPIOx,uint8_t EnorDi) //arguments -port and clk enable or disable
+{
+	if(EnorDi==ENABLE)
+	{
+		if(pGPIOx==GPIOA)
+		{
+			GPIOA_CLK_EN();
+		}
+		elseif(pGPIOx==GPIOB)
+		{
+			GPIOB_CLK_EN();
+		}
+		elseif(pGPIOx==GPIOC)
+				{
+					GPIOC_CLK_EN();
+				}
+		elseif(pGPIOx==GPIOD)
+				{
+					GPIOD_CLK_EN();
+				}
+		elseif(pGPIOx==GPIOE)
+				{
+					GPIOE_CLK_EN();
+				}
+		elseif(pGPIOx==GPIOH)
+				{
+					GPIOH_CLK_EN();
+				}
+
+	}
+	else
+	   {
+		if(pGPIOx==GPIOA)
+
+	     {
+		  GPIOA_CLK_DIS();
+	     }
+	  elseif(pGPIOx==GPIOB)
+	     {
+		    GPIOB_CLK_DIS();
+	      }
+	  elseif(pGPIOx==GPIOC)
+			{
+				GPIOC_CLK_DIS();
+			}
+	  elseif(pGPIOx==GPIOD)
+			{
+				GPIOD_CLK_DIS();
+			}
+	  elseif(pGPIOx==GPIOE)
+			{
+				GPIOE_CLK_DIS();
+			}
+	   elseif(pGPIOx==GPIOH)
+			{
+				GPIOH_CLK_DIS();
+			}
+	   }
+}
+void GPIO_Init(GPIO_Handle *pGPIOHandle);
+void GPIO_DeInit(GPIO_RegDef *pGPIOx);
+/*********************************************************************
+ * @fn          - GPIO_ReadFromInputPin
+ *
+ * @brief       - This function is used to read value from GPIO Pin
+ *
+ * @param[in]   - pGPI0x: pointer to GPIORegDef structure
+ * @param[in]   - GPIO Pin Number
+ *
+ * @return      - uint8_t (value inside that pin)
+ *
+ * @Note        - refer gpio Pin macros
+ *********************************************************************/
+uint8_t GPIO_ReadFromInputPin(GPIO_RegDef *pGPIOx,uint8_t PinNumber)
+{
+	uint8_t value;
+	value=(uint8_t)(pGPIOx->IDR>>PinNumber)
+
+
+	return value;
+}
+
+uint16_t GPIO_ReadFromInputPort(GPIO_RegDef *pGPIOx);
+void GPIO_WriteToOutputPin(GPIO_RegDef *pGPIOx,uint8_t PinNumber,uint8_t value);
+void GPIO_WriteToOutputPort(GPIO_RegDef *pGPIOx,uint8_t value);
+void GPIO_ToggleOutputPin(GPIO_RegDef *pGPIOx,uint8_t PinNumber);
