@@ -1,0 +1,21 @@
+12:44:11 **** Incremental Build of configuration Debug for project Driver_dev ****
+make -j7 all 
+arm-none-eabi-gcc "../Drivers/src/stm32f401xx_i2c_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F401RE -DSTM32 -DSTM32F401RETx -DSTM32F4 -c -I../Inc -I"/Users/nilaNila/Desktop/STM32/Driver_dev/Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/src/stm32f401xx_i2c_driver.d" -MT"Drivers/src/stm32f401xx_i2c_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/src/stm32f401xx_i2c_driver.o"
+../Drivers/src/stm32f401xx_i2c_driver.c: In function 'I2C_MainsendData':
+../Drivers/src/stm32f401xx_i2c_driver.c:184:41: warning: assignment to 'uint32_t' {aka 'long unsigned int'} from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
+  184 |                    pI2CHandle->pI2Cx->DR=pTxBuffer;
+      |                                         ^
+arm-none-eabi-gcc -o "Driver_dev.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/nilaNila/Desktop/STM32/Driver_dev/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Driver_dev.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Driver_dev.elf
+ 
+arm-none-eabi-size  Driver_dev.elf 
+arm-none-eabi-objdump -h -S Driver_dev.elf  > "Driver_dev.list"
+   text	   data	    bss	    dec	    hex	filename
+   2204	      0	   1568	   3772	    ebc	Driver_dev.elf
+Finished building: default.size.stdout
+ 
+Finished building: Driver_dev.list
+ 
+
+12:44:12 Build Finished. 0 errors, 1 warnings. (took 656ms)
+
