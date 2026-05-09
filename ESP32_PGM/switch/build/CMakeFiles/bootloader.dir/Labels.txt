@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/nilaNila/Desktop/ESP_32_PGM/switch/build/CMakeFiles/bootloader
+/Users/nilaNila/Desktop/ESP_32_PGM/switch/build/CMakeFiles/bootloader.rule
+/Users/nilaNila/Desktop/ESP_32_PGM/switch/build/CMakeFiles/bootloader-complete.rule
+/Users/nilaNila/Desktop/ESP_32_PGM/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/nilaNila/Desktop/ESP_32_PGM/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/nilaNila/Desktop/ESP_32_PGM/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/nilaNila/Desktop/ESP_32_PGM/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/nilaNila/Desktop/ESP_32_PGM/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/nilaNila/Desktop/ESP_32_PGM/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/nilaNila/Desktop/ESP_32_PGM/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
