@@ -12,7 +12,7 @@
 
 int main(void)
 {
-	DDRD^=(1<<DDD3);    //set DD3=1 as output
+	DDRD|=(1<<DDD3);    //set DD3=1 as output
     
     while (1) 
     {
