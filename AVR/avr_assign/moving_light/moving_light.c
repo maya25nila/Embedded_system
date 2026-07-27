@@ -4,15 +4,15 @@
 
 int main(void)
 {
-DDRB =0xFF;//set all pins output
+DDRB =0xFF;//set all pin as output
 
-PORTB =0x00;//Turn off all LEDS
+PORTB =0x00;//Initial condition Turn off all LEDS
 while(1)
 {
     for(uint8_t i=0;i<6;i++)
     {
       PORTB =(1<<i);
-      _delay_ms(200);
+      _delay_ms(1000);
     }
 
 }
