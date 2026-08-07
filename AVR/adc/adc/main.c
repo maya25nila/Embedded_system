@@ -10,7 +10,7 @@
 void adc_init(void)
 {
 	//configure ADMUX Register
-	//Set the refference voltage as  AVcc 
+	//Set the reference voltage as  AVcc 
 	ADMUX|=(1<<REFS0);
 	ADMUX&=~(1<<REFS1);
 	//configure for right adjust the data

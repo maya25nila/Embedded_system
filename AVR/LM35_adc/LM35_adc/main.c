@@ -46,7 +46,7 @@ int main(void)
 		lcd_print("Temperature:");
 		lcd_set_cursor(1,0);
 		lcd_print_float(temp);
-		lcd_data(0xDF);
+		lcd_data(0xDF);//to print degree
 		lcd_print("c");
 		_delay_ms(500);
 		
