@@ -35,11 +35,11 @@ static void lcd_send_byte(uint8_t value, uint8_t rs)  	  // here we receive data
 {
 	if (rs==1)
 	{
-		LCD_RS_PORT |=  (1<<LCD_RS_PIN);  		 // IT’S A Data. SO RS pin =1
+		LCD_RS_PORT |=  (1<<LCD_RS_PIN);  		 // ITï¿½S A Data. SO RS pin =1
 	}
 	else
 	{
-		LCD_RS_PORT &= ~(1<<LCD_RS_PIN); 			 // it’s a Command. So RS pin0
+		LCD_RS_PORT &= ~(1<<LCD_RS_PIN); 			 // itï¿½s a Command. So RS pin0
 	}
 	lcd_send_nibble(value >> 4);                     // sending upper nibble
 	lcd_send_nibble(value & 0x0F);                // sending lower nibble
@@ -72,7 +72,7 @@ void lcd_set_cursor(uint8_t row, uint8_t col)		// receives row and column value 
 //This function allows us to print a string
 void lcd_print(const char *s)
 {
-	while (*s)             //    every string ends with ‘\0’. This command checks whether *s=\0
+	while (*s)             //    every string ends with ï¿½\0ï¿½. This command checks whether *s=\0
 	{
 		lcd_data((uint8_t)*s++);
 	}
