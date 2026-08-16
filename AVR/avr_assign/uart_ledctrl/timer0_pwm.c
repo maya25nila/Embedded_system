@@ -1,7 +1,7 @@
 
 
-#include "timer0_fastpwm.h"
-timer0_phasepwm_init()
+#include "timer0_pwm.h"
+void timer0_phasepwm_init()
 {
     //PWM IN phase correct mode
    TCCR0A|=(1<<WGM00);
@@ -17,10 +17,9 @@ timer0_phasepwm_init()
    TCCR0B&=~(1<<CS02);
 
 }
-uint16_t Brightness_ctrl(uint8_t bright)
+void Brightness_ctrl(uint8_t bright)
 {
-uint16_t duty;
-duty=(1024*bright)/100;
-OCR0A =duty;
-return duty;
+
+OCR0A =(255*bright)/100;//set duty cycle
+
 }
