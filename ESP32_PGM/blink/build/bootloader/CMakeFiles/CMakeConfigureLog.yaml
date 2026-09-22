@@ -35,6 +35,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -60,6 +62,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/git"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/git"
       - "/Users/nilaNila/esp/esp-idf/tools/git"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/git"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/git"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/git"
       - "/opt/homebrew/bin/git"
       - "/opt/homebrew/sbin/git"
@@ -80,6 +84,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -92,6 +98,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "find-v1"
@@ -125,6 +133,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -150,6 +160,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/uname"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/uname"
       - "/Users/nilaNila/esp/esp-idf/tools/uname"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/uname"
       - "/opt/homebrew/bin/uname"
       - "/opt/homebrew/sbin/uname"
@@ -170,6 +182,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -182,6 +196,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "message-v1"
@@ -226,6 +242,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -282,6 +300,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -294,6 +314,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "find-v1"
@@ -328,6 +350,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -361,6 +385,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -373,6 +399,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "find-v1"
@@ -416,6 +444,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -428,6 +458,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "message-v1"
@@ -450,7 +482,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /Users/nilaNila/Desktop/ESP_32_PGM/blink/build/bootloader/CMakeFiles/4.2.3/CompilerIdC/a.out
+        /Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/bootloader/CMakeFiles/4.2.3/CompilerIdC/a.out
       
   -
     kind: "find-v1"
@@ -486,6 +518,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -513,6 +547,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -525,6 +561,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "find-v1"
@@ -560,6 +598,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -587,6 +627,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -599,6 +641,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "find-v1"
@@ -634,6 +678,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -661,6 +707,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -673,6 +721,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "find-v1"
@@ -708,6 +758,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -735,6 +787,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -747,6 +801,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "find-v1"
@@ -782,6 +838,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -809,6 +867,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -821,6 +881,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "find-v1"
@@ -856,6 +918,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -883,6 +947,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -895,6 +961,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "find-v1"
@@ -930,6 +998,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -957,6 +1027,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -969,6 +1041,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "find-v1"
@@ -1004,6 +1078,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -1031,6 +1107,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1043,6 +1121,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "find-v1"
@@ -1078,6 +1158,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -1103,6 +1185,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/xtensa-esp32-elf-dlltool"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/xtensa-esp32-elf-dlltool"
       - "/Users/nilaNila/esp/esp-idf/tools/xtensa-esp32-elf-dlltool"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-dlltool"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-dlltool"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xtensa-esp32-elf-dlltool"
       - "/opt/homebrew/bin/xtensa-esp32-elf-dlltool"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-dlltool"
@@ -1127,6 +1211,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/dlltool"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/dlltool"
       - "/Users/nilaNila/esp/esp-idf/tools/dlltool"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/dlltool"
       - "/opt/homebrew/bin/dlltool"
       - "/opt/homebrew/sbin/dlltool"
@@ -1154,6 +1240,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1166,6 +1254,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "find-v1"
@@ -1201,6 +1291,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -1228,6 +1320,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1240,6 +1334,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "find-v1"
@@ -1275,6 +1371,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -1300,6 +1398,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/xtensa-esp32-elf-tapi"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/xtensa-esp32-elf-tapi"
       - "/Users/nilaNila/esp/esp-idf/tools/xtensa-esp32-elf-tapi"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-tapi"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-tapi"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xtensa-esp32-elf-tapi"
       - "/opt/homebrew/bin/xtensa-esp32-elf-tapi"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-tapi"
@@ -1324,6 +1424,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/tapi"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/tapi"
       - "/Users/nilaNila/esp/esp-idf/tools/tapi"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/tapi"
       - "/opt/homebrew/bin/tapi"
       - "/opt/homebrew/sbin/tapi"
@@ -1351,6 +1453,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1363,6 +1467,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "find-v1"
@@ -1400,6 +1506,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -1425,6 +1533,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Users/nilaNila/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ar-14.2"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar-14.2"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ar-14.2"
@@ -1449,6 +1559,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/nilaNila/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ar-14"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar-14"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar-14"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ar-14"
@@ -1473,6 +1585,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/xtensa-esp32-elf-gcc-ar14"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/xtensa-esp32-elf-gcc-ar14"
       - "/Users/nilaNila/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ar14"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar14"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar14"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xtensa-esp32-elf-gcc-ar14"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar14"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ar14"
@@ -1500,6 +1614,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1512,6 +1628,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "find-v1"
@@ -1549,6 +1667,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -1574,6 +1694,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Users/nilaNila/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ranlib-14.2"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib-14.2"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ranlib-14.2"
@@ -1598,6 +1720,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/nilaNila/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ranlib-14"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib-14"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ranlib-14"
@@ -1622,6 +1746,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/xtensa-esp32-elf-gcc-ranlib14"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/Users/nilaNila/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ranlib14"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib14"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib14"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ranlib14"
@@ -1649,6 +1775,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1661,6 +1789,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "find-v1"
@@ -1695,6 +1825,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -1728,6 +1860,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1740,6 +1874,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "find-v1"
@@ -1783,6 +1919,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1795,6 +1933,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "message-v1"
@@ -1817,7 +1957,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /Users/nilaNila/Desktop/ESP_32_PGM/blink/build/bootloader/CMakeFiles/4.2.3/CompilerIdCXX/a.out
+        /Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/bootloader/CMakeFiles/4.2.3/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
@@ -1855,6 +1995,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -1880,6 +2022,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Users/nilaNila/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ar-14.2"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar-14.2"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ar-14.2"
@@ -1904,6 +2048,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/nilaNila/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ar-14"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar-14"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar-14"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ar-14"
@@ -1928,6 +2074,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/xtensa-esp32-elf-gcc-ar14"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/xtensa-esp32-elf-gcc-ar14"
       - "/Users/nilaNila/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ar14"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar14"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar14"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xtensa-esp32-elf-gcc-ar14"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar14"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ar14"
@@ -1955,6 +2103,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1967,6 +2117,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "find-v1"
@@ -2004,6 +2156,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -2029,6 +2183,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Users/nilaNila/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ranlib-14.2"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib-14.2"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ranlib-14.2"
@@ -2053,6 +2209,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/nilaNila/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ranlib-14"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib-14"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ranlib-14"
@@ -2077,6 +2235,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/xtensa-esp32-elf-gcc-ranlib14"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/Users/nilaNila/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ranlib14"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib14"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib14"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ranlib14"
@@ -2104,6 +2264,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -2116,6 +2278,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "find-v1"
@@ -2150,6 +2314,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -2183,6 +2349,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -2195,6 +2363,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "message-v1"
@@ -2246,6 +2416,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -2271,6 +2443,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/xtensa-esp32-elf-gcc-ar-"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/xtensa-esp32-elf-gcc-ar-"
       - "/Users/nilaNila/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ar-"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar-"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar-"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xtensa-esp32-elf-gcc-ar-"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar-"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ar-"
@@ -2295,6 +2469,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/xtensa-esp32-elf-gcc-ar-"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/xtensa-esp32-elf-gcc-ar-"
       - "/Users/nilaNila/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ar-"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar-"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar-"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xtensa-esp32-elf-gcc-ar-"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar-"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ar-"
@@ -2322,6 +2498,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -2334,6 +2512,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "find-v1"
@@ -2371,6 +2551,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/nilaNila/esp/esp-idf/tools/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -2396,6 +2578,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/nilaNila/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ranlib-"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib-"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib-"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ranlib-"
@@ -2420,6 +2604,8 @@ events:
       - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/nilaNila/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ranlib-"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib-"
+      - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib-"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ranlib-"
@@ -2447,6 +2633,8 @@ events:
         - "/Users/nilaNila/.espressif/tools/ninja/1.12.1/"
         - "/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/nilaNila/esp/esp-idf/tools"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -2459,6 +2647,8 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/nilaNila/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
   -
     kind: "try_compile-v1"
@@ -2470,8 +2660,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/nilaNila/Desktop/ESP_32_PGM/blink/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-qGXwKm"
-      binary: "/Users/nilaNila/Desktop/ESP_32_PGM/blink/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-qGXwKm"
+      source: "/Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-OVqIOY"
+      binary: "/Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-OVqIOY"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -2481,10 +2671,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/nilaNila/Desktop/ESP_32_PGM/blink/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-qGXwKm'
+        Change Dir: '/Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-OVqIOY'
         
-        Run Build Command(s): /Users/nilaNila/.espressif/tools/ninja/1.12.1/ninja -v cmTC_e8cc3
-        [1/2] /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_e8cc3.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /Users/nilaNila/.espressif/tools/ninja/1.12.1/ninja -v cmTC_7d6a6
+        [1/2] /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_7d6a6.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-gcc
         Target: xtensa-esp-elf
@@ -2492,8 +2682,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20251107) 
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_e8cc3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_e8cc3.dir/'
-         /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32 -iprefix /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e8cc3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//ccczXZkq.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_7d6a6.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_7d6a6.dir/'
+         /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32 -iprefix /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7d6a6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//cc78RtsR.s
         GNU C17 (crosstool-NG esp-14.2.0_20251107) version 14.2.0 (xtensa-esp-elf)
         	compiled by GNU C version Debian Clang 11.0.1, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
         
@@ -2510,12 +2700,12 @@ events:
          /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include
         End of search list.
         Compiler executable checksum: 513abd5c52edd207b9d1c09e94af0bc7
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_e8cc3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_e8cc3.dir/'
-         /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_e8cc3.dir/CMakeCCompilerABI.c.obj /var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//ccczXZkq.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_7d6a6.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_7d6a6.dir/'
+         /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_7d6a6.dir/CMakeCCompilerABI.c.obj /var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//cc78RtsR.s
         COMPILER_PATH=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_e8cc3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_e8cc3.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_e8cc3.dir/CMakeCCompilerABI.c.obj -o cmTC_e8cc3   && :
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_7d6a6.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_7d6a6.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_7d6a6.dir/CMakeCCompilerABI.c.obj -o cmTC_7d6a6   && :
         Using built-in specs.
         COLLECT_GCC=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-gcc
         COLLECT_LTO_WRAPPER=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper
@@ -2526,10 +2716,10 @@ events:
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20251107) 
         COMPILER_PATH=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_e8cc3' '-dumpdir' 'cmTC_e8cc3.'
-         /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//ccVm5MVh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_e8cc3 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_e8cc3.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_7d6a6' '-dumpdir' 'cmTC_7d6a6.'
+         /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//ccYLCzzw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_7d6a6 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_7d6a6.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc
         /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400074
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_e8cc3' '-dumpdir' 'cmTC_e8cc3.'
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_7d6a6' '-dumpdir' 'cmTC_7d6a6.'
         
       exitCode: 0
   -
@@ -2564,10 +2754,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/nilaNila/Desktop/ESP_32_PGM/blink/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-qGXwKm']
+        ignore line: [Change Dir: '/Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-OVqIOY']
         ignore line: []
-        ignore line: [Run Build Command(s): /Users/nilaNila/.espressif/tools/ninja/1.12.1/ninja -v cmTC_e8cc3]
-        ignore line: [[1/2] /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_e8cc3.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /Users/nilaNila/.espressif/tools/ninja/1.12.1/ninja -v cmTC_7d6a6]
+        ignore line: [[1/2] /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_7d6a6.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-gcc]
         ignore line: [Target: xtensa-esp-elf]
@@ -2575,8 +2765,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20251107) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_e8cc3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_e8cc3.dir/']
-        ignore line: [ /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32 -iprefix /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e8cc3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//ccczXZkq.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_7d6a6.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_7d6a6.dir/']
+        ignore line: [ /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32 -iprefix /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7d6a6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//cc78RtsR.s]
         ignore line: [GNU C17 (crosstool-NG esp-14.2.0_20251107) version 14.2.0 (xtensa-esp-elf)]
         ignore line: [	compiled by GNU C version Debian Clang 11.0.1  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -2593,12 +2783,12 @@ events:
         ignore line: [ /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 513abd5c52edd207b9d1c09e94af0bc7]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_e8cc3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_e8cc3.dir/']
-        ignore line: [ /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_e8cc3.dir/CMakeCCompilerABI.c.obj /var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//ccczXZkq.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_7d6a6.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_7d6a6.dir/']
+        ignore line: [ /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_7d6a6.dir/CMakeCCompilerABI.c.obj /var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//cc78RtsR.s]
         ignore line: [COMPILER_PATH=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_e8cc3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_e8cc3.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_e8cc3.dir/CMakeCCompilerABI.c.obj -o cmTC_e8cc3   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_7d6a6.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_7d6a6.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_7d6a6.dir/CMakeCCompilerABI.c.obj -o cmTC_7d6a6   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper]
@@ -2609,13 +2799,13 @@ events:
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20251107) ]
         ignore line: [COMPILER_PATH=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_e8cc3' '-dumpdir' 'cmTC_e8cc3.']
-        link line: [ /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//ccVm5MVh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_e8cc3 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_e8cc3.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_7d6a6' '-dumpdir' 'cmTC_7d6a6.']
+        link line: [ /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//ccYLCzzw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_7d6a6 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_7d6a6.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc]
           arg [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//ccVm5MVh.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//ccYLCzzw.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
@@ -2624,7 +2814,7 @@ events:
           arg [--sysroot=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
           arg [--dynconfig=xtensa_esp32.so] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_e8cc3] ==> ignore
+          arg [cmTC_7d6a6] ==> ignore
           arg [-L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> dir [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32]
           arg [-L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32] ==> dir [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32]
           arg [-L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32] ==> dir [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32]
@@ -2633,7 +2823,7 @@ events:
           arg [-L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> dir [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib]
           arg [-L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
           arg [-L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> dir [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_e8cc3.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_7d6a6.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [-lc] ==> lib [c]
           arg [-lnosys] ==> lib [nosys]
@@ -2641,7 +2831,7 @@ events:
           arg [-lgcc] ==> lib [gcc]
         ignore line: [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00400074]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_e8cc3' '-dumpdir' 'cmTC_e8cc3.']
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_7d6a6' '-dumpdir' 'cmTC_7d6a6.']
         ignore line: []
         ignore line: []
         collapse library dir [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32]
@@ -2668,8 +2858,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/nilaNila/Desktop/ESP_32_PGM/blink/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-vaxyLi"
-      binary: "/Users/nilaNila/Desktop/ESP_32_PGM/blink/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-vaxyLi"
+      source: "/Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-4RQ9Iu"
+      binary: "/Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-4RQ9Iu"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2680,10 +2870,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/nilaNila/Desktop/ESP_32_PGM/blink/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-vaxyLi'
+        Change Dir: '/Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-4RQ9Iu'
         
-        Run Build Command(s): /Users/nilaNila/.espressif/tools/ninja/1.12.1/ninja -v cmTC_ad535
-        [1/2] /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_ad535.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /Users/nilaNila/.espressif/tools/ninja/1.12.1/ninja -v cmTC_20128
+        [1/2] /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_20128.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-g++
         Target: xtensa-esp-elf
@@ -2691,8 +2881,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20251107) 
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_ad535.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ad535.dir/'
-         /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32 -iprefix /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ad535.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//ccPeV8p4.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_20128.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_20128.dir/'
+         /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32 -iprefix /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_20128.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//ccuKmnp6.s
         GNU C++17 (crosstool-NG esp-14.2.0_20251107) version 14.2.0 (xtensa-esp-elf)
         	compiled by GNU C version Debian Clang 11.0.1, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
         
@@ -2715,12 +2905,12 @@ events:
          /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include
         End of search list.
         Compiler executable checksum: ac958e5d8ea94ccf774d2cae91f75f17
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_ad535.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ad535.dir/'
-         /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_ad535.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//ccPeV8p4.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_20128.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_20128.dir/'
+         /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_20128.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//ccuKmnp6.s
         COMPILER_PATH=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_ad535.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ad535.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_ad535.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_ad535   && :
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_20128.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_20128.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_20128.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_20128   && :
         Using built-in specs.
         COLLECT_GCC=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-g++
         COLLECT_LTO_WRAPPER=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper
@@ -2731,10 +2921,10 @@ events:
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20251107) 
         COMPILER_PATH=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_ad535' '-dumpdir' 'cmTC_ad535.'
-         /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//cchUXYqj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_ad535 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_ad535.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_20128' '-dumpdir' 'cmTC_20128.'
+         /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//cchg3CZp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_20128 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_20128.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc
         /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400074
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_ad535' '-dumpdir' 'cmTC_ad535.'
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_20128' '-dumpdir' 'cmTC_20128.'
         
       exitCode: 0
   -
@@ -2775,10 +2965,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/nilaNila/Desktop/ESP_32_PGM/blink/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-vaxyLi']
+        ignore line: [Change Dir: '/Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-4RQ9Iu']
         ignore line: []
-        ignore line: [Run Build Command(s): /Users/nilaNila/.espressif/tools/ninja/1.12.1/ninja -v cmTC_ad535]
-        ignore line: [[1/2] /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_ad535.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /Users/nilaNila/.espressif/tools/ninja/1.12.1/ninja -v cmTC_20128]
+        ignore line: [[1/2] /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_20128.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-g++]
         ignore line: [Target: xtensa-esp-elf]
@@ -2786,8 +2976,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20251107) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_ad535.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ad535.dir/']
-        ignore line: [ /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32 -iprefix /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ad535.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//ccPeV8p4.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_20128.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_20128.dir/']
+        ignore line: [ /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32 -iprefix /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_20128.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//ccuKmnp6.s]
         ignore line: [GNU C++17 (crosstool-NG esp-14.2.0_20251107) version 14.2.0 (xtensa-esp-elf)]
         ignore line: [	compiled by GNU C version Debian Clang 11.0.1  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -2810,12 +3000,12 @@ events:
         ignore line: [ /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: ac958e5d8ea94ccf774d2cae91f75f17]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_ad535.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ad535.dir/']
-        ignore line: [ /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_ad535.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//ccPeV8p4.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_20128.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_20128.dir/']
+        ignore line: [ /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_20128.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//ccuKmnp6.s]
         ignore line: [COMPILER_PATH=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_ad535.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ad535.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_ad535.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_ad535   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_20128.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_20128.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_20128.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_20128   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper]
@@ -2826,13 +3016,13 @@ events:
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20251107) ]
         ignore line: [COMPILER_PATH=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_ad535' '-dumpdir' 'cmTC_ad535.']
-        link line: [ /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//cchUXYqj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_ad535 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_ad535.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_20128' '-dumpdir' 'cmTC_20128.']
+        link line: [ /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//cchg3CZp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_20128 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_20128.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc]
           arg [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//cchUXYqj.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/fh/fy86tw615fj0rc40938b0bgw0000gp/T//cchg3CZp.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
@@ -2841,7 +3031,7 @@ events:
           arg [--sysroot=/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
           arg [--dynconfig=xtensa_esp32.so] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_ad535] ==> ignore
+          arg [cmTC_20128] ==> ignore
           arg [-L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> dir [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32]
           arg [-L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32] ==> dir [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32]
           arg [-L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32] ==> dir [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32]
@@ -2850,7 +3040,7 @@ events:
           arg [-L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> dir [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib]
           arg [-L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
           arg [-L/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> dir [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_ad535.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_20128.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc] ==> lib [gcc]
@@ -2860,7 +3050,7 @@ events:
           arg [-lgcc] ==> lib [gcc]
         ignore line: [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00400074]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_ad535' '-dumpdir' 'cmTC_ad535.']
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_20128' '-dumpdir' 'cmTC_20128.']
         ignore line: []
         ignore line: []
         collapse library dir [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> [/Users/nilaNila/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32]

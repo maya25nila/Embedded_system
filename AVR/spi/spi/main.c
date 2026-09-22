@@ -64,7 +64,7 @@ int main(void)
 		
 		//first reading msb
 		PORTB&=~(1<<PB2);//SELECTING slave
-		SPDR=(0XFA|0X80);//0xD0 address of chip id of BMP 280 and ENSURING msb 1 for read operation
+		SPDR=(0XFA|0X80);//0xD0 address of msb of BMP 280 and ENSURING msb 1 for read operation
 		while (!(SPSR&(1<<SPIF)));//waiting until flag set
 		(void)SPDR;//reading SPDR(for dummy garbage value)
 		
@@ -75,24 +75,24 @@ int main(void)
 		
 		//reading LSB
 		PORTB&=~(1<<PB2);//SELECTING slave
-		SPDR=(0XFB|0X80);//0xD0 address of chip id of BMP 280 and ENSURING msb 1 for read operation
+		SPDR=(0XFB|0X80);//0xD0 address of lsb of BMP 280 and ENSURING msb 1 for read operation
 		while (!(SPSR&(1<<SPIF)));//waiting until flag set
 		(void)SPDR;//reading SPDR(for dummy garbage value)
 		
 		SPDR=0X00;//sending dummy to read data from BMP280
 		while(!(SPSR&(1<<SPIF)));
-		lsb=SPDR;//reading msb
+		lsb=SPDR;//reading lsb
 		PORTB|=(1<<PB2);//deselecting slave
 		
 		//reading xlsb
 		PORTB&=~(1<<PB2);//SELECTING slave
-		SPDR=(0XFC|0X80);//0xD0 address of chip id of BMP 280 and ENSURING msb 1 for read operation
+		SPDR=(0XFC|0X80);//0xD0 address of xlsb of BMP 280 and ENSURING msb 1 for read operation
 		while (!(SPSR&(1<<SPIF)));//waiting until flag set
 		(void)SPDR;//reading SPDR(for dummy garbage value)
 		
 		SPDR=0X00;//sending dummy to read data from BMP280
 		while(!(SPSR&(1<<SPIF)));
-		xlsb=SPDR;//reading msb
+		xlsb=SPDR;//reading xlsb
 		PORTB|=(1<<PB2);//deselecting slave
 		
 		temp=((uint32_t)msb<<12) | ((uint32_t)lsb<<4) | ((uint32_t)xlsb>>4);

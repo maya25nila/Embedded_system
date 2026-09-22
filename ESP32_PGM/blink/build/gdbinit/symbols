@@ -18,8 +18,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file /Users/nilaNila/Desktop/ESP_32_PGM/blink/build/bootloader/bootloader.elf
+    add-symbol-file /Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file /Users/nilaNila/Desktop/ESP_32_PGM/blink/build/blink.elf
+file /Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/blink.elf

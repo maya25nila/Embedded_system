@@ -1,0 +1,482 @@
+Command: /Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/python /Users/nilaNila/esp/esp-idf/tools/idf_monitor.py -p /dev/cu.usbserial-0001 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /Users/nilaNila/Desktop/Embedded/ESP32_PGM/adc/build/adc.elf /Users/nilaNila/Desktop/Embedded/ESP32_PGM/adc/build/bootloader/bootloader.elf -m '/Users/nilaNila/.espressif/python_env/idf5.5_py3.12_env/bin/python' '/Users/nilaNila/esp/esp-idf/tools/idf.py' '-p' '/dev/cu.usbserial-0001'
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6280
+load:0x40078000,len:15864
+load:0x40080400,len:3920
+entry 0x40080644
+[0;32mI (27) boot: ESP-IDF v5.5.3 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Sep 18 2026 16:17:06[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (29) boot: chip revision: v3.1[0m
+[0;32mI (32) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (35) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (42) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (49) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (69) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (75) boot: End of partition table[0m
+[0;32mI (79) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=096a8h ( 38568) map[0m
+[0;32mI (99) esp_image: segment 1: paddr=000196d0 vaddr=3ffb0000 size=02834h ( 10292) load[0m
+[0;32mI (103) esp_image: segment 2: paddr=0001bf0c vaddr=40080000 size=0410ch ( 16652) load[0m
+[0;32mI (110) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=106f8h ( 67320) map[0m
+[0;32mI (134) esp_image: segment 4: paddr=00030720 vaddr=4008410c size=08d0ch ( 36108) load[0m
+[0;32mI (148) esp_image: segment 5: paddr=00039434 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (155) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (155) boot: Disabling RNG early entropy source...[0m
+[0;32mI (166) cpu_start: Multicore app[0m
+[0;32mI (174) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (175) cpu_start: Pro cpu start user code[0m
+[0;32mI (175) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (177) app_init: Application information:[0m
+[0;32mI (180) app_init: Project name:     adc[0m
+[0;32mI (184) app_init: App version:      6fd49b3-dirty[0m
+[0;32mI (188) app_init: Compile time:     Sep 18 2026 16:09:26[0m
+[0;32mI (193) app_init: ELF file SHA256:  92204c390...[0m
+[0;32mI (198) app_init: ESP-IDF:          v5.5.3[0m
+[0;32mI (202) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (205) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (209) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (213) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (220) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (225) heap_init: At 3FFB3118 len 0002CEE8 (179 KiB): DRAM[0m
+[0;32mI (230) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (235) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (241) heap_init: At 4008CE18 len 000131E8 (76 KiB): IRAM[0m
+[0;33mW (247) spi_flash: Detected boya flash chip but using generic driver. For optimal functionality, enable `SPI_FLASH_SUPPORT_BOYA_CHIP` in menuconfig[0m
+[0;32mI (259) spi_flash: detected chip: generic[0m
+[0;32mI (263) spi_flash: flash io: dio[0m
+[0;33mW (266) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (278) main_task: Started on CPU0[0m
+[0;32mI (288) main_task: Calling app_main()[0m
+ADC Raw Data: 593
+ADC VOLTAGE: 0.48 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 711
+ADC VOLTAGE: 0.57 V
+ADC Raw Data: 391
+ADC VOLTAGE: 0.32 V
+ADC Raw Data: 2275
+ADC VOLTAGE: 1.83 V
+ADC Raw Data: 633
+ADC VOLTAGE: 0.51 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 976
+ADC VOLTAGE: 0.79 V
+ADC Raw Data: 2192
+ADC VOLTAGE: 1.77 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 2655
+ADC VOLTAGE: 2.14 V
+ADC Raw Data: 615
+ADC VOLTAGE: 0.50 V
+ADC Raw Data: 436
+ADC VOLTAGE: 0.35 V
+ADC Raw Data: 22
+ADC VOLTAGE: 0.02 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 1098
+ADC VOLTAGE: 0.88 V
+ADC Raw Data: 2638
+ADC VOLTAGE: 2.13 V
+ADC Raw Data: 3825
+ADC VOLTAGE: 3.08 V
+ADC Raw Data: 762
+ADC VOLTAGE: 0.61 V
+ADC Raw Data: 537
+ADC VOLTAGE: 0.43 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 854
+ADC VOLTAGE: 0.69 V
+ADC Raw Data: 1104
+ADC VOLTAGE: 0.89 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 1232
+ADC VOLTAGE: 0.99 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 2031
+ADC VOLTAGE: 1.64 V
+ADC Raw Data: 1793
+ADC VOLTAGE: 1.44 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 587
+ADC VOLTAGE: 0.47 V
+ADC Raw Data: 1133
+ADC VOLTAGE: 0.91 V
+ADC Raw Data: 3131
+ADC VOLTAGE: 2.52 V
+ADC Raw Data: 1859
+ADC VOLTAGE: 1.50 V
+ADC Raw Data: 1521
+ADC VOLTAGE: 1.23 V
+ADC Raw Data: 698
+ADC VOLTAGE: 0.56 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 26
+ADC VOLTAGE: 0.02 V
+ADC Raw Data: 1232
+ADC VOLTAGE: 0.99 V
+ADC Raw Data: 3807
+ADC VOLTAGE: 3.07 V
+ADC Raw Data: 2763
+ADC VOLTAGE: 2.23 V
+ADC Raw Data: 1227
+ADC VOLTAGE: 0.99 V
+ADC Raw Data: 608
+ADC VOLTAGE: 0.49 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 750
+ADC VOLTAGE: 0.60 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 1278
+ADC VOLTAGE: 1.03 V
+ADC Raw Data: 1648
+ADC VOLTAGE: 1.33 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 1005
+ADC VOLTAGE: 0.81 V
+ADC Raw Data: 3311
+ADC VOLTAGE: 2.67 V
+ADC Raw Data: 3411
+ADC VOLTAGE: 2.75 V
+ADC Raw Data: 880
+ADC VOLTAGE: 0.71 V
+ADC Raw Data: 474
+ADC VOLTAGE: 0.38 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 467
+ADC VOLTAGE: 0.38 V
+ADC Raw Data: 1782
+ADC VOLTAGE: 1.44 V
+ADC Raw Data: 609
+ADC VOLTAGE: 0.49 V
+ADC Raw Data: 1049
+ADC VOLTAGE: 0.85 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 1242
+ADC VOLTAGE: 1.00 V
+ADC Raw Data: 3511
+ADC VOLTAGE: 2.83 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 918
+ADC VOLTAGE: 0.74 V
+ADC Raw Data: 1202
+ADC VOLTAGE: 0.97 V
+ADC Raw Data: 258
+ADC VOLTAGE: 0.21 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 3
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 2506
+ADC VOLTAGE: 2.02 V
+ADC Raw Data: 1076
+ADC VOLTAGE: 0.87 V
+ADC Raw Data: 919
+ADC VOLTAGE: 0.74 V
+ADC Raw Data: 144
+ADC VOLTAGE: 0.12 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 80
+ADC VOLTAGE: 0.06 V
+ADC Raw Data: 1168
+ADC VOLTAGE: 0.94 V
+ADC Raw Data: 2979
+ADC VOLTAGE: 2.40 V
+ADC Raw Data: 3638
+ADC VOLTAGE: 2.93 V
+ADC Raw Data: 1296
+ADC VOLTAGE: 1.04 V
+ADC Raw Data: 1378
+ADC VOLTAGE: 1.11 V
+ADC Raw Data: 880
+ADC VOLTAGE: 0.71 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 1303
+ADC VOLTAGE: 1.05 V
+ADC Raw Data: 3354
+ADC VOLTAGE: 2.70 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 939
+ADC VOLTAGE: 0.76 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 1017
+ADC VOLTAGE: 0.82 V
+ADC Raw Data: 2023
+ADC VOLTAGE: 1.63 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 473
+ADC VOLTAGE: 0.38 V
+ADC Raw Data: 490
+ADC VOLTAGE: 0.39 V
+ADC Raw Data: 338
+ADC VOLTAGE: 0.27 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 286
+ADC VOLTAGE: 0.23 V
+ADC Raw Data: 1279
+ADC VOLTAGE: 1.03 V
+ADC Raw Data: 1485
+ADC VOLTAGE: 1.20 V
+ADC Raw Data: 1971
+ADC VOLTAGE: 1.59 V
+ADC Raw Data: 1975
+ADC VOLTAGE: 1.59 V
+ADC Raw Data: 1280
+ADC VOLTAGE: 1.03 V
+ADC Raw Data: 110
+ADC VOLTAGE: 0.09 V
+ADC Raw Data: 915
+ADC VOLTAGE: 0.74 V
+ADC Raw Data: 256
+ADC VOLTAGE: 0.21 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 2534
+ADC VOLTAGE: 2.04 V
+ADC Raw Data: 4080
+ADC VOLTAGE: 3.29 V
+ADC Raw Data: 2138
+ADC VOLTAGE: 1.72 V
+ADC Raw Data: 677
+ADC VOLTAGE: 0.55 V
+ADC Raw Data: 801
+ADC VOLTAGE: 0.65 V
+ADC Raw Data: 311
+ADC VOLTAGE: 0.25 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 1264
+ADC VOLTAGE: 1.02 V
+ADC Raw Data: 2201
+ADC VOLTAGE: 1.77 V
+ADC Raw Data: 2836
+ADC VOLTAGE: 2.29 V
+ADC Raw Data: 1137
+ADC VOLTAGE: 0.92 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 375
+ADC VOLTAGE: 0.30 V
+ADC Raw Data: 301
+ADC VOLTAGE: 0.24 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 323
+ADC VOLTAGE: 0.26 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 268
+ADC VOLTAGE: 0.22 V
+ADC Raw Data: 955
+ADC VOLTAGE: 0.77 V
+ADC Raw Data: 2961
+ADC VOLTAGE: 2.39 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 2434
+ADC VOLTAGE: 1.96 V
+ADC Raw Data: 2384
+ADC VOLTAGE: 1.92 V
+ADC Raw Data: 1149
+ADC VOLTAGE: 0.93 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 85
+ADC VOLTAGE: 0.07 V
+ADC Raw Data: 1856
+ADC VOLTAGE: 1.50 V
+ADC Raw Data: 1867
+ADC VOLTAGE: 1.50 V
+ADC Raw Data: 336
+ADC VOLTAGE: 0.27 V
+ADC Raw Data: 1521
+ADC VOLTAGE: 1.23 V
+ADC Raw Data: 1322
+ADC VOLTAGE: 1.07 V
+ADC Raw Data: 19
+ADC VOLTAGE: 0.02 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 0
+ADC VOLTAGE: 0.00 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V
+ADC Raw Data: 4095
+ADC VOLTAGE: 3.30 V

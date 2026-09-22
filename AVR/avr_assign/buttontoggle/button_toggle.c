@@ -9,16 +9,25 @@ int main(void)
     PORTB |=(1<<PB0);  //Enable pull up resistor
 
     //set the initial condition
+    
+    
         PORTB |= (1<<PB3); //RED ON
         PORTB  &= ~(1<<PB2); //GREEN OFF
+        _delay_ms(1000);
+    
     while(1)
     {
         
-        if(!(PINB &(1<<PB0)))  //check for button press
-        {
-            PORTB ^=(1<<PB3);
-            PORTB ^=(1<<PB2);
-            _delay_ms(500);
+        if(!(PINB &(1<<PB0))) 
+        { 
+        
+           PORTB ^= (1 << PB3);
+           PORTB ^= (1 << PB2);
+            
+            while (!(PINB & (1 << PB0)));  // wait for release
+
+            _delay_ms(50);//debounce delay
         }
+        
     }
 }

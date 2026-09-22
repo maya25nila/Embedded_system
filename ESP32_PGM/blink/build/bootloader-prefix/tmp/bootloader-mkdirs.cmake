@@ -10,18 +10,18 @@ if(NOT EXISTS "/Users/nilaNila/esp/esp-idf/components/bootloader/subproject")
   file(MAKE_DIRECTORY "/Users/nilaNila/esp/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "/Users/nilaNila/Desktop/ESP_32_PGM/blink/build/bootloader"
-  "/Users/nilaNila/Desktop/ESP_32_PGM/blink/build/bootloader-prefix"
-  "/Users/nilaNila/Desktop/ESP_32_PGM/blink/build/bootloader-prefix/tmp"
-  "/Users/nilaNila/Desktop/ESP_32_PGM/blink/build/bootloader-prefix/src/bootloader-stamp"
-  "/Users/nilaNila/Desktop/ESP_32_PGM/blink/build/bootloader-prefix/src"
-  "/Users/nilaNila/Desktop/ESP_32_PGM/blink/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/bootloader"
+  "/Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/bootloader-prefix"
+  "/Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/bootloader-prefix/tmp"
+  "/Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/bootloader-prefix/src"
+  "/Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/nilaNila/Desktop/ESP_32_PGM/blink/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/nilaNila/Desktop/ESP_32_PGM/blink/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

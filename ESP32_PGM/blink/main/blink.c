@@ -6,7 +6,7 @@
 #define LED_GPIO 2
 void app_main(void)
 { 
-    gpio_reset_pin(LED_GPIO);//rest the pin 2
+    gpio_reset_pin(LED_GPIO);//rest the pin 2 to eliminate the garbage
     gpio_set_direction(LED_GPIO,GPIO_MODE_OUTPUT);//set pin direction as output
     while(1)
     {

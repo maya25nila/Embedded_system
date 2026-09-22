@@ -1,2 +1,2 @@
-source /Users/nilaNila/Desktop/ESP_32_PGM/blink/build/gdbinit/symbols
-source /Users/nilaNila/Desktop/ESP_32_PGM/blink/build/gdbinit/connect
+source /Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/gdbinit/symbols
+source /Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/gdbinit/connect

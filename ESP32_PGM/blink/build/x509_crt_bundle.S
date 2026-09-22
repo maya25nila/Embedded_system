@@ -1,4 +1,4 @@
-/* * Data converted from /Users/nilaNila/Desktop/ESP_32_PGM/blink/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

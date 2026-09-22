@@ -22,4 +22,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file /Users/nilaNila/Desktop/ESP_32_PGM/blink/build/bootloader/bootloader.elf
+file /Users/nilaNila/Desktop/Embedded/ESP32_PGM/blink/build/bootloader/bootloader.elf
